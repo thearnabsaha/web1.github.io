@@ -382,8 +382,64 @@ li:hover{
     color: #e63946;
 }
 /* responsiveness---------------------------------------------------------------- */
-@media(max-width:500px){
-    html{
+@media(max-width:369px){
+    html{ 
+        font-size: 48%;
+    }
+    .navbar .navitems ,.navbar .logo{
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding-bottom: .5em;
+    }
+     .heading-text h1{
+        display: none;
+    }
+    .heading-text p{
+        font-size: 2rem;
+    }
+    .row{
+        height: auto;
+        width: 100%;
+    }
+    .row .text-box , .row .img-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .card1 , .card2 , .card3{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .about-last-box a ,.about-last-box p {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .about-last-box p{
+        margin-bottom: 1em;
+    }
+    .about-last-box a{
+        margin-left: 4em;
+        margin-top: 10em;
+    }
+    .address ,.form{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .form input:hover{
+        padding-left: 0em;
+        margin-left: 0em;
+        background-color: #eee;
+    }
+    .footer{
+        text-align: center;
+    }
+}
+@media(min-width:370px) and (max-width:500px){
+    html{ 
         font-size: 50%;
     }
     .navbar .navitems ,.navbar .logo{
