@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
+    list-style: none;
+}
+/* utility classes------------------------------------------------------------------------------------------ */
+.lg-font{
+    font-size: 3.5rem;
+}
+.md-font{
+    font-size: 2rem;
+}
+.container{
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+}
+.container1{
+    max-width: 300px;
+    width: 90%;
+    margin: 0 auto;
+}
+.btn1{
+    border: 1.7px solid #e63946;
+    text-decoration: none;
+    color: #e63946;
+    padding: .3em;
+    border-radius: .5em;
+}
+.btn1:hover{
+    background-color: #e63946;
+    color: white;
+    border: 1.7px solid white;
+}
+/* header ----------------------------------------------------------------------------------------------------- */
+.header{
+    height: 95vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.5)) ,url(../6obis/header-image.jpg) center;
+    background-size: cover;
+    position: relative;
+    padding-top: 1.5rem;
+}
+ul{
+    list-style-type: none;
+    float: right;
+}
+li{
+    margin: 10em;
+    padding: 20em;
+    display: inline;
+}
+li:hover{
+    border-bottom: white solid 1px;
+}
+.logo{
+    color: white;
+    float: left;
+}
+.navitems a{
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
+.navbar::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.heading-text{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.heading-text h1{
+    font-size: 4rem;
+    margin-bottom: 1.2rem;
+}
+.heading-text p{
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+.heading-text a{
+    border: white solid 1px;
+    border-radius: .3em;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #e63946;
+    background-color: white;
+    font-size: 2rem;
+}
+.heading-text a:hover{
+    background-color: #eee;
+}
+
+/* sections-------------------------------------------------------------------------------------------------------------- */
+.showcase{
+    background-color: #ddd;
+    padding: 10em 0;
+}
+.row{
+    height: 320px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.322);
+    font-size: 5rem;
+    object-fit: cover;
+}
+.row2 .img-box , .row1 .text-box{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+.row1 .img-box , .row2 .text-box{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.row1{
+    margin: 1em 0;
+}
+.row .text-box{
+    padding: .50em;
+}
+.row .img-box img{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+.row .text-box h1{
+    font-size: 3.5rem;
+    font: 300;
+}
+.row .text-box p{
+    color: #666;
+}
+
+/*features ------------------------------------------------------------------------------------------------------------- */
+.features h1{
+    font-size: 2.3rem;
+    padding-bottom: 1em;
+}
+.features p{
+    font-size: 1.8rem;
+}
+.card1 ,.card2 , .card3{
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.322);
+    float: left;
+    width: 33.333333%;
+    padding: 30em;
+    margin-top: 50em;
+    margin-bottom: 40em;
+    color: white;
+}
+.card1 , .card3{
+    background-color: #263228;
+}
+.card2{
+    background-image: linear-gradient(25deg , #d64c7f , #ee4758 50%);
+}
+.fas{
+  font-size: 30em;
+  padding: .3em;
+}
+.features::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* footer------------------------------------------------------------------------------------------- */
+.footer {
+    background-color: #263228;
+    width: 98.9vw;
+    height: 100px;
+    margin: 0px , auto;
+}
+.fab{
+    color: white;
+    font-size: 5rem;
+    padding-left: .5em;
+    padding-bottom: .2em;
+    padding-top: .3em;
+}
+.fab:hover{
+    color: #e63946;
+}
+.footer p{
+    font-size: 1rem;
+    color: white;
+}
+/* about page------------------------------------------------------------------------------------- */
+.bg-nav{
+    background-color: #263228;
+    padding: 3em;
+}
+.about-text{
+    font-size: 3rem;
+    margin-top: .5em;
+    border-bottom: 5px solid #e63946;
+}
+.about-text-para{
+    font-size: 2rem;
+    color: #666;
+    margin-top: .5em;
+}
+.about-box{
+    margin-top: .7em;
+    font-size: 3rem;
+    padding: 1em;
+}
+.box-left{
+    float: left;
+    width: 49%;
+}
+.box-right{
+    float: right;
+    width: 49%;
+}
+
+.about-box p::before{
+    content: "#";
+    color: #e63946;
+    padding: 1rem;
+ }
+.box-about-main::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.about-small-boxes{
+    font-size: 3rem;
+}
+.about-small-boxes span{
+    font-size: 3rem;
+    color: #e63946;
+}
+.s1{
+    float: left;
+    width: 25%;
+    text-align-last: center;
+}
+.s2{
+    float: left;
+    width: 25%;
+    text-align-last: center;
+}
+.s3{
+    float: left;
+    width: 25%;
+    text-align-last: center;
+}
+.s4{
+    float: left;
+    width: 25%;
+    text-align-last: center;
+}
+.about-small-boxes-main::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.about-last-box{
+    border: 1px solid red;
+    background-image: linear-gradient(25deg , #d64c7f , #ee4758 50%);
+    margin-top: 15em;
+    padding-bottom: 15em;
+}
+.about-last-box::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.about-last-box p{
+    font-size: 2.5rem;
+    padding: .9em;
+    float: left;
+    width: 70%;
+    color: #fff;
+}
+.about-last-box a{
+    border: 3px solid #fff;
+    font-size: 2.5rem;
+    padding: .9em;
+    padding-left: 2em;
+    float: left;
+    width: 30%;
+    color: #fff;
+    text-decoration: none;
+    margin-top: .5em;
+}
+.about-last-box a:hover{
+    background-color: #fff;
+    color: #e63946;
+    border: 3px solid #e63946;
+}
+/* contact us page------------------------------------------------------------------------------------------ */
+
+.address{
+    font-size: 5rem;
+    float: left;
+    width: 49%;
+    background-color: #fff;
+}
+.form{
+    font-size: 5rem;
+    float: right;
+    width: 49%;
+}
+.last-page::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.address-group{
+    padding: .7em;
+}
+.address-group h1{
+    font-weight: 400;
+    font-size: 2.3rem;
+    padding-bottom: .2em;
+    color: #e63946;
+}
+.address-group p{
+    font-size: 2rem;
+}
+.address-group .fas{
+    font-size: 2rem;
+    color: #e63946;
+}
+.address-image img{
+    max-width: 100% ;
+    padding-left: .2em;
+    padding-right: .2em;
+    min-height: 38rem;
+    object-fit: cover;
+    object-position: right;
+}
+.form h1{
+    border-bottom: #e63946 solid 3px;
+    font-weight: 400;
+    padding: .2em;
+}
+.form p{
+    font-size: 2rem;
+    padding: .5em 0em;
+    margin-left: .5em;
+}
+.form input{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: .5em;
+    margin-left: .5em;
+}
+.form input:hover{
+    padding-left: 1em;
+    margin-left: 2em;
+    background-color: #eee;
+}
+.form textarea{
+    margin-top: .3em;
+    display: inline-block;
+    width: 100%;
+    margin-left: .5em;
+}
+.form button{
+    background-color: #e63946;
+    color: #fff;
+    padding: .3em ;
+    margin-left: 10em;
+    margin-bottom: .5em;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+}
+.form button:hover{
+    background-color: #fff;
+    color: #e63946;
+}
+/* responsiveness---------------------------------------------------------------- */
+@media(max-width:500px){
+    html{
+        font-size: 50%;
+    }
+    .navbar .navitems ,.navbar .logo{
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding-bottom: .5em;
+    }
+     .heading-text h1{
+        display: none;
+    }
+    .heading-text p{
+        font-size: 2rem;
+    }
+    .row{
+        height: auto;
+        width: 100%;
+    }
+    .row .text-box , .row .img-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .card1 , .card2 , .card3{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .about-last-box a ,.about-last-box p {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .about-last-box p{
+        margin-bottom: 1em;
+    }
+    .about-last-box a{
+        margin-left: 4em;
+        margin-top: 10em;
+    }
+    .address ,.form{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .form input:hover{
+        padding-left: 0em;
+        margin-left: 0em;
+        background-color: #eee;
+    }
+    .footer{
+        text-align: center;
+    }
+}
+
+
+
+
