@@ -117,11 +117,12 @@
 }
 .textBox{
     width: 50%;
-    height: 300px;
+    padding-bottom: 1em;
+    /* height: 300px; */
 }
 .imgBox{
     width: 50%;
-    height: 300px;
+    /* height: 300px; */
 }
 .imgBox img{
     width: 100%;
@@ -358,7 +359,6 @@ footer i:hover{
     .card .fa-dollar-sign{
         display: none;
     }
-}
     .row{
         flex-direction: column-reverse;
         text-align: center;
@@ -366,7 +366,7 @@ footer i:hover{
     .textBox,.imgBox{
         width: 100%;
     }
-
+}
 @media(min-width: 401px) and (max-width: 600px){
     .navbar{
         display: block;
@@ -393,7 +393,6 @@ footer i:hover{
     .card .fa-dollar-sign{
         display: none;
     }
-}
     .row{
         flex-direction: column-reverse;
         text-align: center;
@@ -401,11 +400,14 @@ footer i:hover{
     .textBox,.imgBox{
         width: 100%;
     }
-
+}
 @media(min-width: 601px) and (max-width: 860px){
     .navbar{
         display: block;
         text-align: center;
+    }
+    .navitems{
+        padding-top: 30em;
     }
     html{
         font-size: 50%;
@@ -474,6 +476,17 @@ footer i:hover{
         display: inline-block;
         margin-left: 2em;
         margin-bottom: 2em;
+    }
+}
+@media(min-width: 200px) and (max-width: 970px){
+    .navitems{
+        padding-top: 30em;
+    }
+    .heading-text p{
+        margin-bottom: 1em;
+    }
+    .contactUsPagePart2 form{
+        padding-right: 2em;
     }
 }
 
