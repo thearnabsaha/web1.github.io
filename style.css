@@ -349,6 +349,16 @@ footer i:hover{
     .card{
         margin-top: 1em;
     }
+    .card .fa-ship{
+        display: none;
+    }
+    .card .fa-users{
+        display: none;
+    }
+    .card .fa-dollar-sign{
+        display: none;
+    }
+}
     .row{
         flex-direction: column-reverse;
         text-align: center;
@@ -356,7 +366,7 @@ footer i:hover{
     .textBox,.imgBox{
         width: 100%;
     }
-}
+
 @media(min-width: 401px) and (max-width: 600px){
     .navbar{
         display: block;
@@ -374,6 +384,16 @@ footer i:hover{
     .card{
         margin-top: 1em;
     }
+    .card .fa-ship{
+        display: none;
+    }
+    .card .fa-users{
+        display: none;
+    }
+    .card .fa-dollar-sign{
+        display: none;
+    }
+}
     .row{
         flex-direction: column-reverse;
         text-align: center;
@@ -381,7 +401,7 @@ footer i:hover{
     .textBox,.imgBox{
         width: 100%;
     }
-}
+
 @media(min-width: 601px) and (max-width: 860px){
     .navbar{
         display: block;
