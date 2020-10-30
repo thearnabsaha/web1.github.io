@@ -144,7 +144,6 @@
     font-size: 5rem;
     color: #fff;
     margin-top: 1em;
-    box-shadow: 0px 0px 20px 0px #aaa;
     margin-bottom: 1em;
 }
 .card1,.card3{
@@ -347,6 +346,9 @@ footer i:hover{
     .cards{
         display: block;
     }
+    .card{
+        margin-top: 1em;
+    }
     .row{
         flex-direction: column-reverse;
         text-align: center;
@@ -368,6 +370,9 @@ footer i:hover{
     }
     .cards{
         display: block;
+    }
+    .card{
+        margin-top: 1em;
     }
     .row{
         flex-direction: column-reverse;
@@ -394,6 +399,11 @@ footer i:hover{
         flex-direction: column;
         text-align: center;
     }
+    .contactUsPagePart2 .submit{
+        display: inline-block;
+        margin-left: 2em;
+        margin-bottom: 2em;
+    }
 }
 @media(min-width: 200px) and (max-width: 535px){
     .contactUsPageParts{
@@ -401,7 +411,9 @@ footer i:hover{
         text-align: center;
     }
     .contactUsPagePart2 .submit{
+        display: inline-block;
         margin-left: 2em;
+        margin-bottom: 20em;
     }
     .contactUsPageParts img{
         margin-top: 1em;
@@ -412,6 +424,18 @@ footer i:hover{
 @media(min-width: 200px) and (max-width: 805px){
     .cards{
         display: block;
+    }
+    .card{
+        margin-top: 1em;
+    }
+    .card .fa-ship{
+        display: none;
+    }
+    .card .fa-users{
+        display: none;
+    }
+    .card .fa-dollar-sign{
+        display: none;
     }
 }
 @media(min-width: 200px) and (max-width: 970px){
@@ -425,6 +449,11 @@ footer i:hover{
     }
     .aboutParts p{
         font-size: 2500%;
+    }
+    .contactUsPagePart2 .submit{
+        display: inline-block;
+        margin-left: 2em;
+        margin-bottom: 2em;
     }
 }
 
