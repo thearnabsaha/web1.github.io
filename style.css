@@ -480,7 +480,7 @@ footer i:hover{
 }
 @media(min-width: 200px) and (max-width: 970px){
     .navitems{
-        padding-top: 30em;
+        padding-top: 10em;
     }
     .heading-text p{
         margin-bottom: 1em;
