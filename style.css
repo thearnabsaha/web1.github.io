@@ -117,12 +117,10 @@
 }
 .textBox{
     width: 50%;
-    padding-bottom: 1em;
-    /* height: 300px; */
+    padding-bottom: 2em;
 }
 .imgBox{
     width: 50%;
-    /* height: 300px; */
 }
 .imgBox img{
     width: 100%;
